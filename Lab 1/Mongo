@@ -17,7 +17,7 @@ db.createCollection("students");
 > db.student.find({},{Name:1,_id:0});
 
 // updation
-> db.student.update({_id:4},{$set:{USN:"1BM20CS004"});
+> db.student.update({_id:4},{$set:{USN:"1BM19CS004"});
 
 // import 
 mongoimport --db student --collection students --type csv --headerline --file /home/data.csv
